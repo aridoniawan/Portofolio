@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-famiy: "Inter", sans-serif;
+}
+
+@layer utilities {
+  .animate-spin-slow {
+    animation: spin 3s linear infinite; /* Durasi putaran 10 detik */
+  }
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  .card {
+    @apply rounded-xl shadow-lg bg-white;
+  }
+}
+
+.nav-menu {
+  @apply bg-[#ffffff] bg-opacity-90;
+  backdrop-filter: blur(7px);
+}
+
+.gardient-blue {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-300 via-blue-400 to-primary;
+}
+.line {
+  @apply w-[32px] h-[2px] my-2 block bg-dark;
+}
+
+.navbar-fixed {
+  @apply fixed z-50 bg-transparent shadow-md;
+  backdrop-filter: blur(10px);
+}
+
+.hamburger-active > span:nth-child(1) {
+  @apply rotate-45;
+}
+.hamburger-active > span:nth-child(2) {
+  @apply scale-0;
+}
+.hamburger-active > span:nth-child(3) {
+  @apply -rotate-45;
+}
