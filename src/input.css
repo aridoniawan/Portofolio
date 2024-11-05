@@ -26,6 +26,10 @@ body {
 .gardient-blue {
   @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-300 via-blue-400 to-primary;
 }
+
+.gardient-blues {
+  @apply bg-gradient-to-r from-blue-300 via-blue-400 to-primary;
+}
 .line {
   @apply w-[32px] h-[2px] my-2 block bg-dark;
 }
