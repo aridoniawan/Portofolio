@@ -4,6 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/output.css" />
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    /> -->
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css"
+      rel="stylesheet"
+    /> -->
     <title>Document</title>
   </head>
   <body>
@@ -87,27 +97,225 @@
               >
             </h1>
             <p class="text-secondary font-bold md:">
-              IT Infrastructure | Freelance Web Developer
+              IT Infrastructure | Freelance Web Developer | Quality Assurance
             </p>
             <p class="mt-1 text-dark mb-5">
               I’m passionate about becoming a fullstack development enthusiast,
               eager to explore and create technology solutions from front-end
-              and back-end.
+              and back-end, and also I am very interisting with in Quality
+              Assuranc, you can download my cv in the button below
             </p>
-            <a
+
+            <!-- Modal toggle -->
+
+            <!-- Main modal -->
+            <div
+              id="timeline-modal"
+              tabindex="-1"
+              aria-hidden="true"
+              class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full"
+            >
+              <div class="relative p-4 w-full max-w-md max-h-full">
+                <!-- Modal content -->
+                <div
+                  class="relative bg-white rounded-lg shadow dark:bg-gray-700"
+                >
+                  <!-- Modal header -->
+                  <div
+                    class="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600"
+                  >
+                    <h3
+                      class="text-lg font-semibold text-gray-900 dark:text-white"
+                    >
+                      Download My CV
+                    </h3>
+                    <button
+                      type="button"
+                      class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm h-8 w-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+                      data-modal-toggle="timeline-modal"
+                    >
+                      <svg
+                        class="w-3 h-3"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 14 14"
+                      >
+                        <path
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+                        />
+                      </svg>
+                      <span class="sr-only">Close modal</span>
+                    </button>
+                  </div>
+                  <!-- Modal body -->
+                  <div class="p-4 md:p-5">
+                    <ol
+                      class="relative border-s border-gray-200 dark:border-gray-600 ms-3.5 mb-4 md:mb-5"
+                    >
+                      <li class="mb-10 ms-8">
+                        <span
+                          class="absolute flex items-center justify-center w-6 h-6 bg-gray-100 rounded-full -start-3.5 ring-8 ring-white dark:ring-gray-700 dark:bg-gray-600"
+                        >
+                          <svg
+                            class="w-2.5 h-2.5 text-gray-500 dark:text-gray-400"
+                            aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 20 20"
+                          >
+                            <path
+                              fill="currentColor"
+                              d="M6 1a1 1 0 0 0-2 0h2ZM4 4a1 1 0 0 0 2 0H4Zm7-3a1 1 0 1 0-2 0h2ZM9 4a1 1 0 1 0 2 0H9Zm7-3a1 1 0 1 0-2 0h2Zm-2 3a1 1 0 1 0 2 0h-2ZM1 6a1 1 0 0 0 0 2V6Zm18 2a1 1 0 1 0 0-2v2ZM5 11v-1H4v1h1Zm0 .01H4v1h1v-1Zm.01 0v1h1v-1h-1Zm0-.01h1v-1h-1v1ZM10 11v-1H9v1h1Zm0 .01H9v1h1v-1Zm.01 0v1h1v-1h-1Zm0-.01h1v-1h-1v1ZM10 15v-1H9v1h1Zm0 .01H9v1h1v-1Zm.01 0v1h1v-1h-1Zm0-.01h1v-1h-1v1ZM15 15v-1h-1v1h1Zm0 .01h-1v1h1v-1Zm.01 0v1h1v-1h-1Zm0-.01h1v-1h-1v1ZM15 11v-1h-1v1h1Zm0 .01h-1v1h1v-1Zm.01 0v1h1v-1h-1Zm0-.01h1v-1h-1v1ZM5 15v-1H4v1h1Zm0 .01H4v1h1v-1Zm.01 0v1h1v-1h-1Zm0-.01h1v-1h-1v1ZM2 4h16V2H2v2Zm16 0h2a2 2 0 0 0-2-2v2Zm0 0v14h2V4h-2Zm0 14v2a2 2 0 0 0 2-2h-2Zm0 0H2v2h16v-2ZM2 18H0a2 2 0 0 0 2 2v-2Zm0 0V4H0v14h2ZM2 4V2a2 2 0 0 0-2 2h2Zm2-3v3h2V1H4Zm5 0v3h2V1H9Zm5 0v3h2V1h-2ZM1 8h18V6H1v2Zm3 3v.01h2V11H4Zm1 1.01h.01v-2H5v2Zm1.01-1V11h-2v.01h2Zm-1-1.01H5v2h.01v-2ZM9 11v.01h2V11H9Zm1 1.01h.01v-2H10v2Zm1.01-1V11h-2v.01h2Zm-1-1.01H10v2h.01v-2ZM9 15v.01h2V15H9Zm1 1.01h.01v-2H10v2Zm1.01-1V15h-2v.01h2Zm-1-1.01H10v2h.01v-2ZM14 15v.01h2V15h-2Zm1 1.01h.01v-2H15v2Zm1.01-1V15h-2v.01h2Zm-1-1.01H15v2h.01v-2ZM14 11v.01h2V11h-2Zm1 1.01h.01v-2H15v2Zm1.01-1V11h-2v.01h2Zm-1-1.01H15v2h.01v-2ZM4 15v.01h2V15H4Zm1 1.01h.01v-2H5v2Zm1.01-1V15h-2v.01h2Zm-1-1.01H5v2h.01v-2Z"
+                            />
+                          </svg>
+                        </span>
+                        <h3
+                          class="flex items-start mb-1 text-lg font-semibold text-gray-900 dark:text-white"
+                        >
+                          As Web Developer
+                        </h3>
+                        <a
+                          href="cv/Cv & protofolio web.pdf"
+                          type="button"
+                          class="py-2 px-3 inline-flex items-center text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+                          download
+                        >
+                          <svg
+                            class="w-3 h-3 me-1.5"
+                            aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="currentColor"
+                            viewBox="0 0 20 20"
+                          >
+                            <path
+                              d="M14.707 7.793a1 1 0 0 0-1.414 0L11 10.086V1.5a1 1 0 0 0-2 0v8.586L6.707 7.793a1 1 0 1 0-1.414 1.414l4 4a1 1 0 0 0 1.416 0l4-4a1 1 0 0 0-.002-1.414Z"
+                            />
+                            <path
+                              d="M18 12h-2.55l-2.975 2.975a3.5 3.5 0 0 1-4.95 0L4.55 12H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2Zm-3 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"
+                            />
+                          </svg>
+                          Download
+                        </a>
+                      </li>
+                      <li class="mb-10 ms-8">
+                        <span
+                          class="absolute flex items-center justify-center w-6 h-6 bg-gray-100 rounded-full -start-3.5 ring-8 ring-white dark:ring-gray-700 dark:bg-gray-600"
+                        >
+                          <svg
+                            class="w-2.5 h-2.5 text-gray-500 dark:text-gray-400"
+                            aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 20 20"
+                          >
+                            <path
+                              fill="currentColor"
+                              d="M6 1a1 1 0 0 0-2 0h2ZM4 4a1 1 0 0 0 2 0H4Zm7-3a1 1 0 1 0-2 0h2ZM9 4a1 1 0 1 0 2 0H9Zm7-3a1 1 0 1 0-2 0h2Zm-2 3a1 1 0 1 0 2 0h-2ZM1 6a1 1 0 0 0 0 2V6Zm18 2a1 1 0 1 0 0-2v2ZM5 11v-1H4v1h1Zm0 .01H4v1h1v-1Zm.01 0v1h1v-1h-1Zm0-.01h1v-1h-1v1ZM10 11v-1H9v1h1Zm0 .01H9v1h1v-1Zm.01 0v1h1v-1h-1Zm0-.01h1v-1h-1v1ZM10 15v-1H9v1h1Zm0 .01H9v1h1v-1Zm.01 0v1h1v-1h-1Zm0-.01h1v-1h-1v1ZM15 15v-1h-1v1h1Zm0 .01h-1v1h1v-1Zm.01 0v1h1v-1h-1Zm0-.01h1v-1h-1v1ZM15 11v-1h-1v1h1Zm0 .01h-1v1h1v-1Zm.01 0v1h1v-1h-1Zm0-.01h1v-1h-1v1ZM5 15v-1H4v1h1Zm0 .01H4v1h1v-1Zm.01 0v1h1v-1h-1Zm0-.01h1v-1h-1v1ZM2 4h16V2H2v2Zm16 0h2a2 2 0 0 0-2-2v2Zm0 0v14h2V4h-2Zm0 14v2a2 2 0 0 0 2-2h-2Zm0 0H2v2h16v-2ZM2 18H0a2 2 0 0 0 2 2v-2Zm0 0V4H0v14h2ZM2 4V2a2 2 0 0 0-2 2h2Zm2-3v3h2V1H4Zm5 0v3h2V1H9Zm5 0v3h2V1h-2ZM1 8h18V6H1v2Zm3 3v.01h2V11H4Zm1 1.01h.01v-2H5v2Zm1.01-1V11h-2v.01h2Zm-1-1.01H5v2h.01v-2ZM9 11v.01h2V11H9Zm1 1.01h.01v-2H10v2Zm1.01-1V11h-2v.01h2Zm-1-1.01H10v2h.01v-2ZM9 15v.01h2V15H9Zm1 1.01h.01v-2H10v2Zm1.01-1V15h-2v.01h2Zm-1-1.01H10v2h.01v-2ZM14 15v.01h2V15h-2Zm1 1.01h.01v-2H15v2Zm1.01-1V15h-2v.01h2Zm-1-1.01H15v2h.01v-2ZM14 11v.01h2V11h-2Zm1 1.01h.01v-2H15v2Zm1.01-1V11h-2v.01h2Zm-1-1.01H15v2h.01v-2ZM4 15v.01h2V15H4Zm1 1.01h.01v-2H5v2Zm1.01-1V15h-2v.01h2Zm-1-1.01H5v2h.01v-2Z"
+                            />
+                          </svg>
+                        </span>
+                        <h3
+                          class="flex items-start mb-1 text-lg font-semibold text-gray-900 dark:text-white"
+                        >
+                          As Quality Assurance
+                        </h3>
+                        <a
+                          type="button"
+                          class="py-2 px-3 inline-flex items-center text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+                          download
+                          href="CV/CV ATS Muhamad Ari Doni Awan 2024  Eng QA version.pdf"
+                        >
+                          <svg
+                            class="w-3 h-3 me-1.5"
+                            aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="currentColor"
+                            viewBox="0 0 20 20"
+                          >
+                            <path
+                              d="M14.707 7.793a1 1 0 0 0-1.414 0L11 10.086V1.5a1 1 0 0 0-2 0v8.586L6.707 7.793a1 1 0 1 0-1.414 1.414l4 4a1 1 0 0 0 1.416 0l4-4a1 1 0 0 0-.002-1.414Z"
+                            />
+                            <path
+                              d="M18 12h-2.55l-2.975 2.975a3.5 3.5 0 0 1-4.95 0L4.55 12H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2Zm-3 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"
+                            />
+                          </svg>
+                          Download
+                        </a>
+                      </li>
+                      <li class="mb-10 ms-8">
+                        <span
+                          class="absolute flex items-center justify-center w-6 h-6 bg-gray-100 rounded-full -start-3.5 ring-8 ring-white dark:ring-gray-700 dark:bg-gray-600"
+                        >
+                          <svg
+                            class="w-2.5 h-2.5 text-gray-500 dark:text-gray-400"
+                            aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 20 20"
+                          >
+                            <path
+                              fill="currentColor"
+                              d="M6 1a1 1 0 0 0-2 0h2ZM4 4a1 1 0 0 0 2 0H4Zm7-3a1 1 0 1 0-2 0h2ZM9 4a1 1 0 1 0 2 0H9Zm7-3a1 1 0 1 0-2 0h2Zm-2 3a1 1 0 1 0 2 0h-2ZM1 6a1 1 0 0 0 0 2V6Zm18 2a1 1 0 1 0 0-2v2ZM5 11v-1H4v1h1Zm0 .01H4v1h1v-1Zm.01 0v1h1v-1h-1Zm0-.01h1v-1h-1v1ZM10 11v-1H9v1h1Zm0 .01H9v1h1v-1Zm.01 0v1h1v-1h-1Zm0-.01h1v-1h-1v1ZM10 15v-1H9v1h1Zm0 .01H9v1h1v-1Zm.01 0v1h1v-1h-1Zm0-.01h1v-1h-1v1ZM15 15v-1h-1v1h1Zm0 .01h-1v1h1v-1Zm.01 0v1h1v-1h-1Zm0-.01h1v-1h-1v1ZM15 11v-1h-1v1h1Zm0 .01h-1v1h1v-1Zm.01 0v1h1v-1h-1Zm0-.01h1v-1h-1v1ZM5 15v-1H4v1h1Zm0 .01H4v1h1v-1Zm.01 0v1h1v-1h-1Zm0-.01h1v-1h-1v1ZM2 4h16V2H2v2Zm16 0h2a2 2 0 0 0-2-2v2Zm0 0v14h2V4h-2Zm0 14v2a2 2 0 0 0 2-2h-2Zm0 0H2v2h16v-2ZM2 18H0a2 2 0 0 0 2 2v-2Zm0 0V4H0v14h2ZM2 4V2a2 2 0 0 0-2 2h2Zm2-3v3h2V1H4Zm5 0v3h2V1H9Zm5 0v3h2V1h-2ZM1 8h18V6H1v2Zm3 3v.01h2V11H4Zm1 1.01h.01v-2H5v2Zm1.01-1V11h-2v.01h2Zm-1-1.01H5v2h.01v-2ZM9 11v.01h2V11H9Zm1 1.01h.01v-2H10v2Zm1.01-1V11h-2v.01h2Zm-1-1.01H10v2h.01v-2ZM9 15v.01h2V15H9Zm1 1.01h.01v-2H10v2Zm1.01-1V15h-2v.01h2Zm-1-1.01H10v2h.01v-2ZM14 15v.01h2V15h-2Zm1 1.01h.01v-2H15v2Zm1.01-1V15h-2v.01h2Zm-1-1.01H15v2h.01v-2ZM14 11v.01h2V11h-2Zm1 1.01h.01v-2H15v2Zm1.01-1V11h-2v.01h2Zm-1-1.01H15v2h.01v-2ZM4 15v.01h2V15H4Zm1 1.01h.01v-2H5v2Zm1.01-1V15h-2v.01h2Zm-1-1.01H5v2h.01v-2Z"
+                            />
+                          </svg>
+                        </span>
+                        <h3
+                          class="flex items-start mb-1 text-lg font-semibold text-gray-900 dark:text-white"
+                        >
+                          As IT Infrastructure / IT Support
+                        </h3>
+                        <a
+                          type="button"
+                          class="py-2 px-3 inline-flex items-center text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+                          download
+                          href="CV/CV ATS Muhamad Ari Doni Awan 2024  Eng Version IT Infra.pdf"
+                        >
+                          <svg
+                            class="w-3 h-3 me-1.5"
+                            aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="currentColor"
+                            viewBox="0 0 20 20"
+                          >
+                            <path
+                              d="M14.707 7.793a1 1 0 0 0-1.414 0L11 10.086V1.5a1 1 0 0 0-2 0v8.586L6.707 7.793a1 1 0 1 0-1.414 1.414l4 4a1 1 0 0 0 1.416 0l4-4a1 1 0 0 0-.002-1.414Z"
+                            />
+                            <path
+                              d="M18 12h-2.55l-2.975 2.975a3.5 3.5 0 0 1-4.95 0L4.55 12H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2Zm-3 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"
+                            />
+                          </svg>
+                          Download
+                        </a>
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button
+              data-modal-target="timeline-modal"
+              data-modal-toggle="timeline-modal"
+              type="button"
               href="#"
               class="text-base text-white bg-blue-300 px-7 py-2 rounded-full shadow-sm hover:bg-primary hover:shadow-2xl"
-              >Hire Me
-            </a>
+            >
+              Hire Me
+            </button>
           </div>
           <div class="w-full self-end px-4 md:w-1/2">
             <div class="mt-10 relative">
               <div
                 class="absolute rounded-[100%] p-3 border-transparent border-8 border-t-primary border-b-primary animate-spin shadow-lg"
               ></div>
-              <div
+              <!-- <div
                 class="absolute inset-1 rounded-full border-transparent p-3 border-8 border-l-primary animate-spin-slow"
-              ></div>
+              ></div> -->
 
               <img
                 style="margin-left: 35px"
@@ -270,16 +478,16 @@
     <!-- End About Section -->
 
     <!-- Skill Section -->
-    <section id="skill" class="bg-sky-100 py-20">
+    <section id="skill" class="bg-primary py-20">
       <div class="container">
         <div class="flex flex-wrap">
           <div class="w-full px-4">
             <h1
-              class="flex justify-center text-primary text-6xl font-bold text-shadow mb-5"
+              class="flex justify-center text-white text-6xl font-bold text-shadow mb-5"
             >
               My Skill
             </h1>
-            <p class="flex justify-center text-dark mt-2 text-2xl text-center">
+            <p class="flex justify-center text-white mt-2 text-2xl text-center">
               This is the current technology stack I use, and I will also
               continue to improve and explore the technology stack that
               companies often use.
@@ -439,6 +647,10 @@
     </section>
     <!-- End Skill Section -->
 
+    <!-- Modal toggle -->
+
+    <!-- Main modal -->
+
     <!-- portofolio Section -->
     <section class="pt-36 pb-16" id="portofolio">
       <div class="container">
@@ -454,7 +666,14 @@
           </div>
         </div>
         <div class="w-full px-6 flex flex-wrap justify-center">
-          <div class="mb-12 p-4 md:w-1/2">
+          <!-- Button trigger modal -->
+
+          <button
+            data-modal-target="default-modal"
+            data-modal-toggle="default-modal"
+            type="button"
+            class="mb-12 p-4 md:w-1/2"
+          >
             <div class="rounded-md shadow-lg overflow-hidden">
               <img src="img/Sentiment Analysis.PNG" alt="Mubasiap" />
             </div>
@@ -470,23 +689,508 @@
               ketika di klik detail terdapat bagan bar untuk menampilkan
               sentiment pada suatu partai
             </p>
+          </button>
+
+          <!-- Modal -->
+          <div
+            id="default-modal"
+            tabindex="-1"
+            aria-hidden="true"
+            class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full"
+          >
+            <div class="relative w-full max-w-2xl max-h-full">
+              <!-- Modal content -->
+              <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+                <!-- Modal header -->
+                <div
+                  class="flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600"
+                >
+                  <h3
+                    class="text-xl font-semibold text-gray-900 dark:text-white"
+                  >
+                    Project Web Pilkada
+                  </h3>
+                  <button
+                    type="button"
+                    class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+                    data-modal-hide="default-modal"
+                  >
+                    <svg
+                      class="w-3 h-3"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 14 14"
+                    >
+                      <path
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+                      />
+                    </svg>
+                    <span class="sr-only">Close modal</span>
+                  </button>
+                </div>
+                <!-- Modal body -->
+                <div class="p-6 space-y-6">
+                  <div
+                    id="default-carousel"
+                    class="relative w-full"
+                    data-carousel="slide"
+                  >
+                    <!-- Carousel wrapper -->
+                    <div
+                      class="relative h-56 overflow-hidden rounded-lg md:h-96"
+                    >
+                      <!-- Item 1 -->
+                      <div
+                        class="hidden duration-700 ease-in-out"
+                        data-carousel-item
+                      >
+                        <img
+                          src="img/pilkada/Bar Analysis.PNG"
+                          class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                          alt="..."
+                        />
+                      </div>
+                      <!-- Item 2 -->
+                      <div
+                        class="hidden duration-700 ease-in-out"
+                        data-carousel-item
+                      >
+                        <img
+                          src="img/pilkada/FORM Dashboard.PNG"
+                          class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                          alt="..."
+                        />
+                      </div>
+                      <!-- Item 3 -->
+                      <div
+                        class="hidden duration-700 ease-in-out"
+                        data-carousel-item
+                      >
+                        <img
+                          src="img/pilkada/Form Login.PNG"
+                          class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                          alt="..."
+                        />
+                      </div>
+                      <!-- Item 4 -->
+                      <div
+                        class="hidden duration-700 ease-in-out"
+                        data-carousel-item
+                      >
+                        <img
+                          src="img/pilkada/Modal Fecth Data Bar.PNG"
+                          class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                          alt="..."
+                        />
+                      </div>
+                      <!-- Item 5 -->
+                      <div
+                        class="hidden duration-700 ease-in-out"
+                        data-carousel-item
+                      >
+                        <img
+                          src="img/pilkada/Negative Bar.PNG"
+                          class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                          alt="..."
+                        />
+                      </div>
+                      <div
+                        class="hidden duration-700 ease-in-out"
+                        data-carousel-item
+                      >
+                        <img
+                          src="img/pilkada/Positive Bar.PNG"
+                          class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                          alt="..."
+                        />
+                      </div>
+                      <div
+                        class="hidden duration-700 ease-in-out"
+                        data-carousel-item
+                      >
+                        <img
+                          src="img/pilkada/Project Time Line.PNG"
+                          class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                          alt="..."
+                        />
+                      </div>
+                    </div>
+                    <!-- Slider indicators -->
+                    <div
+                      class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse"
+                    >
+                      <button
+                        type="button"
+                        class="w-3 h-3 rounded-full"
+                        aria-current="true"
+                        aria-label="Slide 1"
+                        data-carousel-slide-to="0"
+                      ></button>
+                      <button
+                        type="button"
+                        class="w-3 h-3 rounded-full"
+                        aria-current="false"
+                        aria-label="Slide 2"
+                        data-carousel-slide-to="1"
+                      ></button>
+                      <button
+                        type="button"
+                        class="w-3 h-3 rounded-full"
+                        aria-current="false"
+                        aria-label="Slide 3"
+                        data-carousel-slide-to="2"
+                      ></button>
+                      <button
+                        type="button"
+                        class="w-3 h-3 rounded-full"
+                        aria-current="false"
+                        aria-label="Slide 4"
+                        data-carousel-slide-to="3"
+                      ></button>
+                      <button
+                        type="button"
+                        class="w-3 h-3 rounded-full"
+                        aria-current="false"
+                        aria-label="Slide 5"
+                        data-carousel-slide-to="4"
+                      ></button>
+                    </div>
+                    <!-- Slider controls -->
+                    <button
+                      type="button"
+                      class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                      data-carousel-prev
+                    >
+                      <span
+                        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+                      >
+                        <svg
+                          class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 6 10"
+                        >
+                          <path
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M5 1 1 5l4 4"
+                          />
+                        </svg>
+                        <span class="sr-only">Previous</span>
+                      </span>
+                    </button>
+                    <button
+                      type="button"
+                      class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                      data-carousel-next
+                    >
+                      <span
+                        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+                      >
+                        <svg
+                          class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 6 10"
+                        >
+                          <path
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="m1 9 4-4-4-4"
+                          />
+                        </svg>
+                        <span class="sr-only">Next</span>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+                <!-- Modal footer -->
+              </div>
+            </div>
           </div>
-          <div class="mb-12 p-4 md:w-1/2">
+          <button
+            data-modal-target="default-modal1"
+            data-modal-toggle="default-modal1"
+            type="button"
+            class="mb-12 p-4 md:w-1/2"
+          >
             <div class="rounded-md shadow-lg overflow-hidden">
-              <img src="img/Ar.jpg" alt="Mubasiap" />
+              <img src="img/ebook/details ebook.PNG" alt="Mubasiap" />
             </div>
             <h3 class="font-semibold text-2xl text-dark mt-5 mb-3">
-              Skripsi: Aplikasi Bangun Ruang Sisi Datar
+              Project : E - commerce eBook
             </h3>
             <p class="font-medium text-base text-slate-700 mb-2">
-              Stack: C#, Unity, & Vuforia
+              Stack: Laravel, Middleware, Javascript, Tailwind, Midtrans
             </p>
             <p class="font-medium text-base text-slate-700">
-              Aplikasi tersebut dibuat untuk membantu siswa smp memahami bentuk
-              diagonal sisi ruang bangun datar secara 3 Dimensi, dan terdapat
-              rumus untuk mencari luas dan volume suatu bangun ruang
+              Project untuk menjual eBook enggineers yang terintegrasi dengan
+              midtrans, terdapat featur admin dalam mengelola cms yang dimana
+              content dalam cms dapat di ganti bahasa nya ke engglish dan
+              indonesia
             </p>
+          </button>
+
+          <!-- Modal -->
+          <div
+            id="default-modal1"
+            tabindex="-1"
+            aria-hidden="true"
+            class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full"
+          >
+            <div class="relative w-full max-w-2xl max-h-full">
+              <!-- Modal content -->
+              <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+                <!-- Modal header -->
+                <div
+                  class="flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600"
+                >
+                  <h3
+                    class="text-xl font-semibold text-gray-900 dark:text-white"
+                  >
+                    Project Web eBook
+                  </h3>
+                  <button
+                    type="button"
+                    class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+                    data-modal-hide="default-modal1"
+                  >
+                    <svg
+                      class="w-3 h-3"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 14 14"
+                    >
+                      <path
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+                      />
+                    </svg>
+                    <span class="sr-only">Close modal</span>
+                  </button>
+                </div>
+                <!-- Modal body -->
+                <div class="p-6 space-y-6">
+                  <div
+                    id="default-carousel"
+                    class="relative w-full"
+                    data-carousel="slide"
+                  >
+                    <!-- Carousel wrapper -->
+                    <div
+                      class="relative h-56 overflow-hidden rounded-lg md:h-96"
+                    >
+                      <!-- Item 1 -->
+                      <div
+                        class="hidden duration-700 ease-in-out"
+                        data-carousel-item
+                      >
+                        <img
+                          src="img/ebook/HomePage.PNG"
+                          class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                          alt="..."
+                        />
+                      </div>
+                      <!-- Item 2 -->
+                      <div
+                        class="hidden duration-700 ease-in-out"
+                        data-carousel-item
+                      >
+                        <img
+                          src="img/ebook/details ebook buy.PNG"
+                          class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                          alt="..."
+                        />
+                      </div>
+                      <!-- Item 3 -->
+                      <div
+                        class="hidden duration-700 ease-in-out"
+                        data-carousel-item
+                      >
+                        <img
+                          src="img/ebook/Midtrans integrations.PNG"
+                          class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                          alt="..."
+                        />
+                      </div>
+                      <!-- Item 4 -->
+                      <div
+                        class="hidden duration-700 ease-in-out"
+                        data-carousel-item
+                      >
+                        <img
+                          src="img/ebook/More About.png"
+                          class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                          alt="..."
+                        />
+                      </div>
+                      <!-- Item 5 -->
+                      <div
+                        class="hidden duration-700 ease-in-out"
+                        data-carousel-item
+                      >
+                        <img
+                          src="img/ebook/Dashboard Admin.PNG"
+                          class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                          alt="..."
+                        />
+                      </div>
+                      <div
+                        class="hidden duration-700 ease-in-out"
+                        data-carousel-item
+                      >
+                        <img
+                          src="img/ebook/Dashboard Admin 2.PNG"
+                          class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                          alt="..."
+                        />
+                      </div>
+                      <div
+                        class="hidden duration-700 ease-in-out"
+                        data-carousel-item
+                      >
+                        <img
+                          src="img/ebook/Dashboard Admin 3.PNG"
+                          class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                          alt="..."
+                        />
+                      </div>
+                      <div
+                        class="hidden duration-700 ease-in-out"
+                        data-carousel-item
+                      >
+                        <img
+                          src="img/ebook/Crud ebook.PNG"
+                          class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                          alt="..."
+                        />
+                      </div>
+                      <div
+                        class="hidden duration-700 ease-in-out"
+                        data-carousel-item
+                      >
+                        <img
+                          src="img/ebook/crud cms.PNG"
+                          class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                          alt="..."
+                        />
+                      </div>
+                    </div>
+                    <!-- Slider indicators -->
+                    <div
+                      class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse"
+                    >
+                      <button
+                        type="button"
+                        class="w-3 h-3 rounded-full"
+                        aria-current="true"
+                        aria-label="Slide 1"
+                        data-carousel-slide-to="0"
+                      ></button>
+                      <button
+                        type="button"
+                        class="w-3 h-3 rounded-full"
+                        aria-current="false"
+                        aria-label="Slide 2"
+                        data-carousel-slide-to="1"
+                      ></button>
+                      <button
+                        type="button"
+                        class="w-3 h-3 rounded-full"
+                        aria-current="false"
+                        aria-label="Slide 3"
+                        data-carousel-slide-to="2"
+                      ></button>
+                      <button
+                        type="button"
+                        class="w-3 h-3 rounded-full"
+                        aria-current="false"
+                        aria-label="Slide 4"
+                        data-carousel-slide-to="3"
+                      ></button>
+                      <button
+                        type="button"
+                        class="w-3 h-3 rounded-full"
+                        aria-current="false"
+                        aria-label="Slide 5"
+                        data-carousel-slide-to="4"
+                      ></button>
+                    </div>
+                    <!-- Slider controls -->
+                    <button
+                      type="button"
+                      class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                      data-carousel-prev
+                    >
+                      <span
+                        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+                      >
+                        <svg
+                          class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 6 10"
+                        >
+                          <path
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M5 1 1 5l4 4"
+                          />
+                        </svg>
+                        <span class="sr-only">Previous</span>
+                      </span>
+                    </button>
+                    <button
+                      type="button"
+                      class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                      data-carousel-next
+                    >
+                      <span
+                        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+                      >
+                        <svg
+                          class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 6 10"
+                        >
+                          <path
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="m1 9 4-4-4-4"
+                          />
+                        </svg>
+                        <span class="sr-only">Next</span>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+                <!-- Modal footer -->
+              </div>
+            </div>
           </div>
+
           <div class="mb-12 p-4 md:w-1/2">
             <div class="rounded-md shadow-lg overflow-hidden">
               <img src="img/StickyNote.PNG" alt="Mubasiap" />
@@ -503,17 +1207,18 @@
           </div>
           <div class="mb-12 p-4 md:w-1/2">
             <div class="rounded-md shadow-lg overflow-hidden">
-              <img src="img/Holiday.PNG" alt="Mubasiap" />
+              <img src="img/Ar.jpg" alt="Mubasiap" />
             </div>
             <h3 class="font-semibold text-2xl text-dark mt-5 mb-3">
-              Web Travel
+              Skripsi: Aplikasi Bangun Ruang Sisi Datar
             </h3>
             <p class="font-medium text-base text-slate-700 mb-2">
-              Stack: HTML & CSS
+              Stack: C#, Unity, & Vuforia
             </p>
             <p class="font-medium text-base text-slate-700">
-              Web Travel berikut menggunakan tema galassmorphism, fokus pada web
-              tersebut adalah view dari gambar - gambar wisata
+              Aplikasi tersebut dibuat untuk membantu siswa smp memahami bentuk
+              diagonal sisi ruang bangun datar secara 3 Dimensi, dan terdapat
+              rumus untuk mencari luas dan volume suatu bangun ruang
             </p>
           </div>
         </div>
@@ -675,6 +1380,7 @@
       </div>
     </footer>
     <!-- footer End -->
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
